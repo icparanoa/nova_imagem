@@ -589,11 +589,12 @@ section {
 }
 
 .values .box ul {
-  list-style: circle;
+  list-style: disc;
   padding: 0;
 }
 
-.tabs .tab-pane ul li {
+.values .box ul li {
+  padding-bottom: 3px;
   text-align: left;
 }
 
@@ -616,6 +617,13 @@ section {
 /*--------------------------------------------------------------
 # Tabs
 --------------------------------------------------------------*/
+
+.tabs img{
+  max-width: 80%;
+  height: auto;
+}
+
+
 .tabs .nav-tabs {
   border: 0;
 }
