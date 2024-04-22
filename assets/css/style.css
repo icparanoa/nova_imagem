@@ -578,24 +578,6 @@ section {
 /*--------------------------------------------------------------
 # Values
 --------------------------------------------------------------*/
-#values {
-  padding: 120px 0;
-}
-
-#values:before {
-  padding: 80px 0;
-  background: url("../img/fundo.png") fixed no-repeat center;
-  background-position: center;
-  background-size: cover;
-  content: "";
-  position: absolute;
-  bottom: 60px;
-  top: 60px;
-  left: 0;
-  right: 0;
-  transform: skewY(-3deg);
-}
-
 .values .box {
   padding: 30px;
   background: #F6F6F6;
@@ -606,11 +588,15 @@ section {
   height: 100%;
 }
 
-.values .box img {
-  padding: 30px 50px;
-  transition: 0.5s;
-  transform: scale(1.1);
+.values .box ul {
+  list-style: circle;
+  padding: 0;
 }
+
+.tabs .tab-pane ul li {
+  text-align: left;
+}
+
 
 .values .box h3 {
   font-size: 24px;
@@ -659,6 +645,11 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+}
+
+.tabs p{
+  text-align: center;
+  font-size: 18px;
 }
 
 .tabs h3::after {
