@@ -476,6 +476,129 @@ h6 {
 
 
 
+.serviceBox {
+  margin-top: 35px;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 0 20px 60px;
+  border-radius: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.serviceBox:before {
+  content: '';
+  background-color: #fff;
+  border-bottom: 30px solid #952377;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 20px;
+  bottom: 0;
+  z-index: -1;
+}
+
+.serviceBox .service-icon {
+  color: #952377;
+  background-color: #952377;
+  font-size: 35px;
+  text-align: center;
+  height: 74px;
+  width: 160px;
+  padding: 7px;
+  margin: 0 auto 30px;
+  border-radius: 25px;
+  position: relative;
+}
+
+.serviceBox .service-icon:before {
+  content: '';
+  background-color: #952377;
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  transform: rotate(45deg);
+  position: absolute;
+  left: 25px;
+  bottom: -10px;
+}
+
+.serviceBox .service-icon span {
+  background-color: #fff;
+  line-height: 60px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.serviceBox .title {
+  color: #952377;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 27px;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+
+.serviceBox .description{
+  color: #555555;
+  font-size: 14px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.serviceBox.magenta:before {
+  border-color: #B06A9D;
+}
+
+.serviceBox.magenta .service-icon,
+.serviceBox.magenta .service-icon:before {
+  color: #B06A9D;
+  background-color: #B06A9D;
+}
+
+.serviceBox.magenta .title {
+  color: #B06A9D;
+}
+
+.serviceBox.pink:before {
+  border-color: #DBB6D3;
+}
+
+.serviceBox.pink .service-icon,
+.serviceBox.pink .service-icon:before {
+  color: #DBB6D3;
+  background-color: #DBB6D3;
+}
+
+.serviceBox.pink .title {
+  color: #DBB6D3;
+}
+
+.serviceBox.purple:before {
+  border-color: #56BBAB;
+}
+
+.serviceBox.purple .service-icon,
+.serviceBox.purple .service-icon:before {
+  color: #56BBAB;
+  background-color: #56BBAB;
+}
+
+.serviceBox.purple .title {
+  color: #56BBAB;
+}
+
+@media only screen and (max-width: 990px) {
+  .serviceBox {
+    margin: 0 0 30px;
+  }
+}
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -610,45 +733,6 @@ section {
 .clients .swiper-slide img:hover {
   opacity: 1;
   filter: none;
-}
-
-/*--------------------------------------------------------------
-# Values
---------------------------------------------------------------*/
-.values .box {
-  padding: 30px;
-  background: #F6F6F6;
-  border-radius: 15px;
-  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
-  text-align: center;
-  transition: 0.3s;
-  height: 100%;
-}
-
-.values .box ul {
-  list-style: disc;
-  padding: 0;
-}
-
-.values .box ul li {
-  padding-bottom: 3px;
-  text-align: left;
-}
-
-
-.values .box h3 {
-  font-size: 24px;
-  color: #012970;
-  font-weight: 700;
-  margin-bottom: 18px;
-}
-
-.values .box:hover {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-}
-
-.values .box:hover img {
-  transform: scale(1);
 }
 
 /*--------------------------------------------------------------
