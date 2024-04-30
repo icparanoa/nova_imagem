@@ -98,10 +98,8 @@ h6 {
 }
 
 #header.header-scrolled {
-  padding: 12px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
-
 
 #header .logo a {
   color: #111111;
@@ -112,7 +110,7 @@ h6 {
 }
 
 #header .logo img {
-  max-height: 110px;
+  max-height: 90px;
 }
 
 /*--------------------------------------------------------------
