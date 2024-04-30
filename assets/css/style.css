@@ -442,36 +442,39 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Mega Buttons
+# Cta
 --------------------------------------------------------------*/
-.mega_button {
-  text-align: center;
-  padding-bottom: 80px;
-  position: relative;
+.cta {
+  background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../img/fundo.png") fixed center center;
+  background-size: cover;
+  padding: 60px 0;
 }
 
-.mega_button button {
-  align-items: center;
-  justify-content: center;
-  line-height: 1;
-  color: #f6f6f6;
-  font-size: 30px;
-  border-radius: 50px;
-  width: 800px;
-  height: 90px;
-  font-weight: bold;
-  border-bottom: 4px solid #b06a9d;
-  transition: 0.3s;
-  box-shadow: 2px 7px 96px -2px rgb(176,106,157);
-  -webkit-box-shadow: 2px 7px 96px -2px rgb(176,106,157);
-  -moz-box-shadow: 2px 7px 96px -2px rgb(176,106,157);
-  background-color: #952377;
+.cta h3 {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
 }
 
-.mega_button button:hover {
-  box-shadow: none;
-  cursor: pointer;
+.cta p {
+  color: #fff;
 }
+
+.cta .cta-btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.5s;
+  margin-top: 10px;
+  background: #952377;
+  color: #F6F6F6;
+}
+
+
 
 /*--------------------------------------------------------------
 # Sections General
