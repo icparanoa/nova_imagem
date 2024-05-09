@@ -373,6 +373,7 @@ h6 {
   background-size: cover;
   position: relative;
   padding-top: 82px;
+  border-radius: 15px;
 }
 
 #hero:before {
@@ -382,6 +383,7 @@ h6 {
   top: 0;
   left: 0;
   right: 0;
+  border-radius: 15px;
 }
 
 #hero h1 {
@@ -446,6 +448,7 @@ h6 {
   background: linear-gradient(rgba(66, 84, 81, 0.5), rgba(43, 56, 54, 0.5)), url("../img/fundo.png") fixed center center;
   background-size: cover;
   padding: 60px 0;
+  border-radius: 15px;
 }
 
 .cta h3 {
@@ -641,6 +644,7 @@ section {
 .section-bg {
   padding: 120px 0;
   color: #fff;
+  border-radius: 15px;
 }
 
 .section-bg:before {
@@ -655,6 +659,7 @@ section {
   left: 0;
   right: 0;
   transform: skewY(-3deg);
+  border-radius: 15px;
 }
 
 /*--------------------------------------------------------------
@@ -871,6 +876,7 @@ section {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  border-radius: 15px;
 }
 
 .contact .nav-link i {
@@ -893,6 +899,7 @@ section {
   background: #B06A9D;
   color: #fff;
   border-color: #952377;
+  border-radius: 15px;
 }
 
 @media (max-width: 768px) {
@@ -925,6 +932,7 @@ section {
 .contact .tab-pane ul {
   list-style: none;
   padding: 0;
+  border-radius: 15px;
 }
 
 .contact .tab-pane ul li {
@@ -946,6 +954,7 @@ section {
   background: url("../img/fundo1.png") fixed no-repeat center;
   background-position: center;
   background-size: cover;
+  border-radius: 20px;
 }
 
 #contact:before {
@@ -956,6 +965,7 @@ section {
   top: 0;
   left: 0;
   right: 0;
+  border-radius: 20px;
 }
 
 
@@ -975,6 +985,7 @@ section {
   align-items: center;
   border-radius: 4px;
   transition: all 0.3s ease-in-out;
+  border-radius: 15px;
 }
 
 .contact .info h4 {
@@ -1040,6 +1051,7 @@ section {
   font-size: 14px;
   text-align: center;
   padding: 2px 0;
+  border-radius: 20px;
 }
 
 #footer img {
