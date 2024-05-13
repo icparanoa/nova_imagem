@@ -475,129 +475,87 @@ h6 {
   color: #F6F6F6;
 }
 
-
-
-.serviceBox {
-  margin-top: 35px;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  padding: 0 20px 60px;
-  border-radius: 20px;
+/*--------------------------------------------------------------
+# Our Services
+--------------------------------------------------------------*/
+.services .icon-box {
+  padding: 30px;
   position: relative;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
   z-index: 1;
 }
 
-.serviceBox:before {
-  content: '';
-  background-color: #fff;
-  border-bottom: 30px solid #952377;
-  border-radius: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.services .icon-box::before {
+  content: "";
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 20px;
-  bottom: 0;
+  background: #b06a9d;
+  right: -60px;
+  top: -40px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  transition: all 0.3s;
   z-index: -1;
 }
 
-.serviceBox .service-icon {
-  color: #952377;
-  background-color: #952377;
-  font-size: 35px;
-  text-align: center;
-  height: 74px;
-  width: 160px;
-  padding: 7px;
-  margin: 0 auto 30px;
-  border-radius: 25px;
-  position: relative;
+.services .icon-box:hover::before {
+  background: #b06a9d;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0px;
 }
 
-.serviceBox .service-icon:before {
-  content: '';
-  background-color: #952377;
-  height: 30px;
-  width: 30px;
-  border-radius: 5px;
-  transform: rotate(45deg);
-  position: absolute;
-  left: 25px;
-  bottom: -10px;
-}
-
-.serviceBox .service-icon span {
-  background-color: #fff;
-  line-height: 60px;
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
+.services .icon {
+  margin: 0 auto 20px auto;
+  padding-top: 10px;
   display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  background: #b06a9d;
+  transition: all 0.3s ease-in-out;
 }
 
-.serviceBox .title {
-  color: #952377;
-  font-size: 20px;
-  font-weight: 600;
-  letter-spacing: 0.5px;
-  line-height: 27px;
-  text-transform: uppercase;
-  margin: 0 0 10px;
+.services .icon i {
+  font-size: 36px;
+  line-height: 1;
+  color: #fff;
 }
 
-.serviceBox .description{
-  color: #555555;
-  font-size: 14px;
-  line-height: 22px;
-  margin: 0;
+.services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
 }
 
-.serviceBox.magenta:before {
-  border-color: #B06A9D;
+.services .title a {
+  color: #425451;
 }
 
-.serviceBox.magenta .service-icon,
-.serviceBox.magenta .service-icon:before {
-  color: #B06A9D;
-  background-color: #B06A9D;
+.services .description {
+  font-size: 15px;
+  line-height: 28px;
+  margin-bottom: 0;
 }
 
-.serviceBox.magenta .title {
-  color: #B06A9D;
+.services .icon-box:hover .title a,
+.services .icon-box:hover .description {
+  color: #fff;
 }
 
-.serviceBox.pink:before {
-  border-color: #DBB6D3;
+.services .icon-box:hover .icon {
+  background: #fff;
 }
 
-.serviceBox.pink .service-icon,
-.serviceBox.pink .service-icon:before {
-  color: #DBB6D3;
-  background-color: #DBB6D3;
-}
-
-.serviceBox.pink .title {
-  color: #DBB6D3;
-}
-
-.serviceBox.purple:before {
-  border-color: #56BBAB;
-}
-
-.serviceBox.purple .service-icon,
-.serviceBox.purple .service-icon:before {
-  color: #56BBAB;
-  background-color: #56BBAB;
-}
-
-.serviceBox.purple .title {
-  color: #56BBAB;
-}
-
-@media only screen and (max-width: 990px) {
-  .serviceBox {
-    margin: 0 0 30px;
-  }
+.services .icon-box:hover .icon i {
+  color: #b06a9d;
 }
 
 /*--------------------------------------------------------------
