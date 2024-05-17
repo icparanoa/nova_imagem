@@ -532,7 +532,7 @@ h6 {
   text-transform: uppercase;
 }
 
-.services .title a {  
+.services .title a {
   color: #ffffff;
 }
 
@@ -707,6 +707,37 @@ section {
 }
 
 .clients .swiper-slide img:hover {
+  opacity: 1;
+  filter: none;
+}
+
+/* Navigation Arrows */
+.swiper-button-next, .swiper-button-prev {
+  color: #611926;
+  width: 44px;
+  height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.swiper-button-next:hover, .swiper-button-prev:hover {
+  background: #611926;
+  color: #fff;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+  font-size: 20px;
+}
+
+
+.clients .carousel-item img {
+  opacity: 0.5;
+  transition: 0.3s;
+  filter: grayscale(100);
+}
+
+.clients .carousel-item img:hover {
   opacity: 1;
   filter: none;
 }
@@ -1024,8 +1055,9 @@ section {
 }
 
 #footer img {
-  height: 210px;
+  height: auto;
   width: 210px;
+  margin-bottom: 10px;
 }
 
 #footer .small-img {
