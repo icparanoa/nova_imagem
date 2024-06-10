@@ -910,24 +910,6 @@ section {
   border-radius: 15px;
 }
 
-@media (max-width: 768px) {
-  .contact .nav-link i {
-    padding: 0;
-    line-height: 1;
-    font-size: 36px;
-  }
-}
-
-@media (max-width: 575px) {
-  .contact .nav-link {
-    padding: 15px;
-  }
-
-  .contact .nav-link i {
-    font-size: 24px;
-  }
-}
-
 .contact .tab-content {
   margin-top: 30px;
 }
