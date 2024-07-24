@@ -162,17 +162,15 @@
    * Clients Slider
    */
   new Swiper('.clients-slider', {
-    speed: 400,
+    speed: 500,
     loop: true,
     autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
+      delay: 1000,
     },
     slidesPerView: 'auto',
     pagination: {
       el: '.swiper-pagination',
       type: 'bullets',
-      clickable: true
     },
     breakpoints: {
       320: {

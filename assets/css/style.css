@@ -503,15 +503,15 @@ h6 {
   border-radius: 0px;
 }
 
-.services .icon {
+.services img {
   margin: 0 auto 20px auto;
   padding-top: 10px;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
-  background: #7b353c;
+  width: 80px;
+  height: 80px;
+  background: #ffffff;
   transition: all 0.3s ease-in-out;
 }
 
@@ -692,7 +692,6 @@ section {
   width: 12px;
   height: 12px;
   background-color: #fff;
-  opacity: 1;
   border: 1px solid #611926;
 }
 
@@ -701,13 +700,10 @@ section {
 }
 
 .clients .swiper-slide img {
-  opacity: 0.5;
   transition: 0.3s;
-  filter: grayscale(100);
 }
 
 .clients .swiper-slide img:hover {
-  opacity: 1;
   filter: none;
 }
 
@@ -737,7 +733,6 @@ section {
 .clients .carousel-item img {
   opacity: 0.5;
   transition: 0.3s;
-  filter: grayscale(100);
 }
 
 .clients .carousel-item img:hover {
